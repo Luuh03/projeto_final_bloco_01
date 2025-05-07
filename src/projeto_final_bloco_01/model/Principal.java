@@ -65,7 +65,7 @@ public abstract class Principal {
 		
 		switch(this.tipo) {
 			case 1 -> tipo = "DVD";
-			//case 2 -> tipo = "Fita VHS";
+			case 2 -> tipo = "Fita VHS";
 			default -> tipo = "Inválido";
 		}
 		
