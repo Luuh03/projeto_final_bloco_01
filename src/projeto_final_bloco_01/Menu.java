@@ -114,11 +114,10 @@ public class Menu {
 						System.out.print("Digite o ano de lançamento: ");
 						anoLancamento = leia.nextInt();
 						
-						System.out.print("Digite o tipo da mídia (1- DVD, 2- Fita VHS): ");
-						tipo = leia.nextInt();
-						
 						System.out.print("Digite o valor: ");
 						valor = leia.nextFloat();
+						
+						tipo = midia.get().getTipo();
 						
 						switch(tipo) {
 							case 1 -> {
