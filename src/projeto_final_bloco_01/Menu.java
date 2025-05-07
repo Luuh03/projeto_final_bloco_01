@@ -3,6 +3,8 @@ package projeto_final_bloco_01;
 import java.io.IOException;
 import java.util.Scanner;
 
+import projeto_final_bloco_01.model.Estendida;
+
 public class Menu {
 
 	public static void main(String[] args) {
@@ -10,6 +12,10 @@ public class Menu {
 		Scanner leia = new Scanner(System.in);
 		
 		int opcao;
+		
+		// Teste dvd
+		Estendida dvd = new Estendida(1, "Lagoa Azul", "Romance", 1980, 1, (float) 13.9, "Sim");
+		dvd.visualizar();
 
 		while (true) {
 			
